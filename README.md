@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-"# PicShifter" 
+" PicShifter" 
 =======
 # pap
 Meu projeto de término de curso. 
