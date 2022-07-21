@@ -1,0 +1,44 @@
+html{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,255,0.7399334733893557) 48%, rgba(128,0,128,0.8323704481792717) 90%);
+}
+
+.corpo{
+margin:50px ;
+
+}
+
+h2{
+    color: white;
+}
+
+.imagem{
+
+
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+ text-align: center;
+ flex-wrap: wrap;
+}
+
+.icone img{
+    margin: 20px;
+    width:20%;
+    opacity: 0.6;
+}
+
+.icone img:hover{
+    width:30%;
+    opacity: 1;
+    transition: width 1s;
+}
+
+.footer{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 15px;
+    margin-top: 5%;
+}

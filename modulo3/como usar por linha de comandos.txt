@@ -1,0 +1,22 @@
+py main_argparse.py --imagem amoreco.jpg --funcao ler
+
+
+py main_argparse.py --imagem PicShifter/amoreco.jpg --funcao resize --resizeW 500 --resizeH 500
+
+py main_argparse.py --imagem PicShifter/solid1.png --funcao toRgb
+
+py main_argparse.py --imagem PicShifter/logo.png --funcao cinza
+
+py main_argparse.py --imagem PicShifter/logo.png --funcao Vflip
+
+py main_argparse.py --imagem PicShifter/logo.png --funcao Hflip
+
+py main_argparse.py --imagem PicShifter/logo.png --funcao rotacao --variavel1 78
+
+
+>py main_argparse.py --imagem PicShifter/logo.png --funcao gamma --variavel2 33
+
+
+py main_argparse.py --imagem PicShifter/solid1.png --funcao convert --variavel3 tiff
+
+py main_argparse.py --imagem PicShifter/solid1.png --funcao convert --variavel3 png --variavel4 7

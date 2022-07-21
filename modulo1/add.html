@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="drop.css">
+
+    <title>PicShifter uploader</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="..\Picshifter/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="..\Picshifter/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="..\Picshifter/icon/favicon-16x16.png">
+    <link rel="manifest" href="..\Picshifter/icon/site.webmanifest">
+    <link rel="mask-icon" href="..\Picshifter/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <form action="fileUploadScript.php" method="post" enctype="multipart/form-data">
+		<div class=drop-zone>
+        <span class="drop-zone__prompt">Arraste e solte ou clique para fazer upload</span>
+        <input type="file" name="the_file" id="fileToUpload" class="drop-zone__input">
+		</div>
+        <input type="submit" name="submit" value="Enviar imagens" class="imgsub">
+    </form>
+	 <script src="dng.js"></script>
+</body>
+</html>

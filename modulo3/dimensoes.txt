@@ -1,0 +1,8 @@
+Filename                 : ../PicShifter/casa.jpg 
+Image Size               : (734, 484) 
+Image Height             : 484 
+Image Width              : 734 
+Image Format             : JPEG 
+Image Mode               : RGB 
+Image is Animated        : False 
+Frames in Image          : 1 
